@@ -8,40 +8,40 @@
 
 - O programa deverá "distribuir" aleatoriamente as cartas (11 cartas para cada um dos 4 jogadores participantes). Encerra a proposta com a apresentação das "mãos" de cada jogador.
 
-- Notação para a identificação da carta:
+## Notação para a identificação da carta:
 
-<i>N-99-B = Onde: </i><br>
-N-99-B = Onde: 
-N  -> Naipe (1-Copas / 2-Paus / 3-Ouro / 4-Espada)
-99 -> Número da carta (01-Ás / 13-Rei)
-B  -> Baralho (1 ou 2)
-Exemplo: 4-10-2  ->  10 de espada do baralho 2
-baralho[n][c]
-n = 0..1
-c = 0..51
-baralho[0][1] = "1021"
-baralho[0][2] = "1031"
-baralho[0][0] = "1011"
+<i>N-99-B = Onde: </i><br> 
+<i>N  -> Naipe (1-Copas / 2-Paus / 3-Ouro / 4-Espada)</i><br>
+<i>99 -> Número da carta (01-Ás / 13-Rei)</i><br>
+<i>B  -> Baralho (1 ou 2)</i><br>
+<i>Exemplo: 4-10-2  ->  10 de espada do baralho 2</i><br>
+<i>baralho[n][c]</i><br>
+<i>n = 0..1</i><br>
+<i>c = 0..51</i><br>
+<i>baralho[0][1] = "1021"</i><br>
+<i>baralho[0][2] = "1031"</i><br>
+<i>baralho[0][0] = "1011"</i><br>
 .
 .
-baralho[0][12] = "1131"
-baralho[0][13] = "2011"
+<i>baralho[0][12] = "1131"</i><br>
+<i>baralho[0][13] = "2011"</i><br>
 .
 .
-baralho[0][51] = "4131"
+<i>baralho[0][51] = "4131"</i><br>
 .
-baralho[1][0] = "1012"
-.
-.
+<i>baralho[1][0] = "1012"</i><br>
 .
 .
-baralho[1][51] = "4132"
-mao[j][c]
-j = 0..3
-c = 0..10
+.
+.
+<i>baralho[1][51] = "4132"</i><br>
+<i>mao[j][c]</i><br>
+<i>j = 0..3</i><br>
+<i>c = 0..10</i><br>
 
-mao[0][0] = "1012"
-mao[1][0] = "1011"
+<i>c = 0..10</i><br>
+<i>mao[0][0] = "1012"</i><br>
+<i>mao[1][0] = "1011"</i><br>
 
 
 

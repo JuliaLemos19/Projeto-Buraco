@@ -10,7 +10,7 @@
 
 - Notação para a identificação da carta:
 
-<i>N-99-B = Onde: </i>
+<i>N-99-B = Onde: </i>br
 N-99-B = Onde: 
 N  -> Naipe (1-Copas / 2-Paus / 3-Ouro / 4-Espada)
 99 -> Número da carta (01-Ás / 13-Rei)

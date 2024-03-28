@@ -4,11 +4,11 @@
 
 - Objetivo: 
 
-Criar em memória uma representação para cada uma das 52 cartas de um baralho (x 2 baralhos) para serem utilizadas em um jogo de Buraco.
+- Criar em memória uma representação para cada uma das 52 cartas de um baralho (x 2 baralhos) para serem utilizadas em um jogo de Buraco.
 
-O programa deverá "distribuir" aleatoriamente as cartas (11 cartas para cada um dos 4 jogadores participantes). Encerra a proposta com a apresentação das "mãos" de cada jogador.
+- O programa deverá "distribuir" aleatoriamente as cartas (11 cartas para cada um dos 4 jogadores participantes). Encerra a proposta com a apresentação das "mãos" de cada jogador.
 
-Notação para a identificação da carta:
+- Notação para a identificação da carta:
 
 N-99-B = Onde:
 N  -> Naipe (1-Copas / 2-Paus / 3-Ouro / 4-Espada)
